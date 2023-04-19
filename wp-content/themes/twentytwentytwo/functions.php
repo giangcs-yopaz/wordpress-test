@@ -65,3 +65,10 @@ add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+// API
+require get_template_directory() . '/inc/api/functions.php';
+require get_template_directory() . '/inc/api/responses.php';
+
+// ADMIN
+require get_template_directory() . '/inc/admin/roles.php';
